@@ -1,4 +1,4 @@
-##_Classical Horror_
+## Classical Horror
 
 Little Big Adventure :)
 
