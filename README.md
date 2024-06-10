@@ -1,4 +1,4 @@
-## Classical Horror
+## Action Survival
 
 Little Big Adventure :)
 

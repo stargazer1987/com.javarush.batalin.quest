@@ -1,9 +1,5 @@
 package com.javarush.batalin.quest.controller;
 
-/**
- * @author Nikolay
- */
-
 import com.javarush.batalin.quest.model.Situation;
 import com.javarush.batalin.quest.service.SituationService;
 
@@ -18,7 +14,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-
+/**
+ * @author Nikolay
+ */
 @WebServlet(name = "mainServlet", value = "/play-the-game")
 public class MainServlet extends HttpServlet {
 
@@ -88,7 +86,7 @@ public class MainServlet extends HttpServlet {
             return;
         }
 
-        request.setAttribute("action", chosenAnswer.getAnswerText());
+        request.setAttribute("action", chosenAnswer.getAction());
         request.setAttribute("name", name);
         request.setAttribute("nextSituation", String.valueOf(chosenAnswer.getNextSituation()));
 
